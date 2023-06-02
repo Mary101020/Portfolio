@@ -11,3 +11,23 @@ Updated: 2023-06-01 13:23:39
 
 */
 
+.elementor-368 .elementor-element.elementor-element-c4dd4c9 .gallery-item img {
+    border-radius: 23px 23px 23px 23px;
+    max-height: 120px;
+}
+
+.image-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: -10px;
+}
+
+.image-block img {
+    width: calc(33.33% - 20px);
+    height: auto;
+    object-fit: cover;
+    margin: 10px;
+    height: 200px;
+}
