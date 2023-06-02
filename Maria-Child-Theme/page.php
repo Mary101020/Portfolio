@@ -53,7 +53,7 @@ $projets_query = new WP_Query($args);
 // Check if there are any posts
 if ($projets_query->have_posts()) {
     // Start the loop
-    echo '<div class="image-block">'; // Start the image-block container
+    echo '<div id= "projets" class="image-block">'; // Start the image-block container
     while ($projets_query->have_posts()) {
         $projets_query->the_post();
 
